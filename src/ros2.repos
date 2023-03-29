@@ -1,10 +1,15 @@
 # List of repositories to use within your workspace
 # See https://github.com/dirk-thomas/vcstool
-############ 
-# Example:
-############
 repositories:
-  examples:
+  turtlebot3:
     type: git
-    url: https://github.com/ros2/examples.git
-    version: humble
+    url: https://github.com/ROBOTIS-GIT/turtlebot3.git
+    version: humble-devel
+  turtlebot3_msgs:
+    type: git
+    url: https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
+    version: humble-devel
+  turtlebot3_simulations:
+    type: git
+    url: https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
+    version: humble-devel
